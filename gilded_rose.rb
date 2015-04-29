@@ -1,4 +1,4 @@
-  def update_quality(items)
+def update_quality(items)
 	 items.each do |item|
 	   find_updater(item)
 	 end
